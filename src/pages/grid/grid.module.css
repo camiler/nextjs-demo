@@ -1,0 +1,10 @@
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 200px);
+  grid-auto-rows: minmax(100px, 200px);
+  grid-column-gap: 10px;
+  grid-row-gap: 1em;
+}
+.wrapper > div {
+  background: #ccc;
+}

@@ -23,6 +23,7 @@ export default function Layout({ children }) {
           <Menu.Item key="demo" icon={<UserOutlined />}>
             demo
           </Menu.Item>
+          <Menu.Item key="grid">grid</Menu.Item>
         </Menu>
       </Sider>
       <AntdLayout>
